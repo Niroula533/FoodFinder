@@ -1,0 +1,105 @@
+/* .menuDialog{
+    height: 400px;
+    background-color: #444;
+} */
+.dialog{
+    display: flex;
+    flex-direction: row;   
+    height:35vh; 
+    width: 600px;
+}
+
+.formControlMenu{
+    /* margin-bottom: px;s */
+    padding-bottom: 5px;
+    /* position: relative; */
+}
+
+.formControlMenu label {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /* position: relative; */
+}
+
+.formControlMenu input{
+    border: 2px solid #999;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+.formControlMenuSelect label{
+    color: #999;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuCatagorySelect{
+    display: flex;
+    /* background: rgb(58, 63, 63); */
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;  */
+    font-size: 16px;
+    /* height: 100px; */
+}
+
+.menuCatagorySelect label{
+    margin: 2px;
+    padding: 2px;
+    font-weight: normal;
+    /* background-color: blueviolet; */
+}
+.menuCatagorySelect label input{
+    margin-right: 10px;
+    /* padding: 2px; */
+    /* background-color: blueviolet; */
+}
+
+/* from here menu preview section  */
+
+.menuPhotoSection{
+    background-color: #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    width:400px;
+}
+
+.menuPhotoSection label{
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menuPhotoSection input{
+    /* border: 2px solid #999; */
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.image{
+    /* border: 2px solid rgb(138, 18, 18); */
+    background-image: url("../components/images/burger.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
